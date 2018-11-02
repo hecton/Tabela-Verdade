@@ -1,0 +1,126 @@
+/*Tabela*/
+#tabela{
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -400px;
+}
+#tb{
+	 font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#tb td,#tb th{
+	 border: 1px solid #ddd;
+    padding: 8px;
+}
+#tb tr:nth-child(even){background-color: #f2f2f2;}
+
+#tb tr:hover, .btcon:hover {background-color: #ddd;}
+
+#tb th {
+    padding-top: 12px;
+    width: 100px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*botão de escolha da tabela*/
+.btcust{
+	padding: 2px 15px;
+	background: #f2f2f2;
+	border: grey solid 1px;
+	border-radius: 5px;
+	margin-right: 30px;
+	position: absolute;
+	margin-top: 5px;
+}
+#bt6{left: 86%;}
+#bt5{left: 70%;}
+#bt4{left: 54%;}
+#bt3{left: 37%;}
+#bt2{left: 20%;}
+#bt1{left: 4%;}
+
+
+.btcust:hover{
+	background: #4CAF50;
+}
+
+/*boão de escolha dos conectivos*/
+
+.btcon{
+	padding: 2px 15px;
+	background: #f2f2f2;
+	border: grey solid 1px;
+	border-radius: 5px;
+	display: block;
+}
+
+/*tabela de informações*/
+
+#info{
+	width: 200px;
+	height: auto;
+	border-radius: 5px;
+	border: #ddd solid 1px;
+	margin-left: 20px;
+	background: #4CAF50;
+	position: absolute;
+	top: 50%;
+	margin-top: -200px;
+}
+#info p{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-size: 17px;
+	font-family: helvetica;
+	margin: 0px 0px;
+	color: white;
+}
+
+#info .titu{
+	background: #f2f2f2;
+	color: black;
+}
+
+/* botão de confirmar */
+#confirm{
+	position: absolute;
+	left: 72%;
+	top: 60%;
+	display: none;
+}
+
+#confirm div,#reset{
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border: #ddd solid 1px;
+	background: #f2f2f2;
+}
+#confirm div p,#reset p{
+	text-align: center;
+	padding-top:  5px;
+	margin: 0px;
+}
+#conf:hover,#reset:hover{
+	background: #4CAF50;
+	color: white;
+}
+#clear:hover{
+	background: #ff3333;
+	color: white; 
+}
+#reset{
+	position: absolute;
+	top: 55%;
+	left: 72%;
+	background: grey;
+	color: white;
+}
